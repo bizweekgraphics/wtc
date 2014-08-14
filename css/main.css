@@ -1,8 +1,34 @@
 body {
   width: 970px;
-  border: 1px solid black;
+  font-family: sans-serif;
 }
 
-.text-container {
+.column-left {
+  float: left;
+  width: 300px;
+}
+
+.column-right {
   width: 250px;
+  float: right;
+}
+
+.column-center {
+  display: inline-block;
+  width: 400px;
+}
+
+.column-center img {
+  display: block;
+  margin: 0 auto;
+}
+
+.column-left ul {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-top: 13px;
+}
+
+li {
+  margin-top: 20px;
 }
