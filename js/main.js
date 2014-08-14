@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     $(item).mouseleave(function() {
       $('#wtc-img').attr('src', "img/wtc_0.png")
-      $(item).css('color', 'black')
+      $(item).css('color', '#2f2f2f')
       $(item).css('font-weight', 'normal')
     })
   })
